@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" href="" id="theme-style" />
+    <link rel="stylesheet" href="button.css" />
+
+    <title>Portfolio | Abdellah Ahmed</title>
+  </head>
+  <body>
+    <div id="app">
+      <section class="s1">
+        <div class="main-container">
+          <div class="greeting-wrapper">
+            <h1>Hi, I'm Abdellah Ahmed</h1>
+          </div>
+
+          <div class="intro-wrapper">
+            <div class="nav-wrapper">
+              <div class="dot-wrapper">
+                <div class="browser-dot" id="dot1"></div>
+                <div class="browser-dot" id="dot2"></div>
+                <div class="browser-dot" id="dot3"></div>
+              </div>
+              <div class="address-bar">
+                <p>http://iamdevabdellah</p>
+              </div>
+              <div id="navigation">
+                <!-- <li><a href="#">Contact</a></li> -->
+              </div>
+            </div>
+            <div class="left-column">
+              <img src="./images/24692961.png" id="profile-pic" alt="" />
+              <h5 style="text-align: center; line-height: 0">
+                Personalize Theme
+              </h5>
+              <div id="theme-options-wrapper">
+                <div
+                  data-mode="light"
+                  id="light-mode"
+                  class="theme-dot"
+                  v-on:click="iwasclicked"
+                ></div>
+                <div
+                  data-mode="blue"
+                  id="blue-mode"
+                  class="theme-dot"
+                  v-on:click="iwasclicked"
+                ></div>
+                <div
+                  data-mode="green"
+                  id="green-mode"
+                  class="theme-dot"
+                  v-on:click="iwasclicked"
+                ></div>
+                <div
+                  data-mode="purple"
+                  id="purple-mode"
+                  class="theme-dot"
+                  v-on:click="iwasclicked"
+                ></div>
+              </div>
+              <p id="settings-note">Theme color</p>
+            </div>
+            <div class="right-column">
+              <div id="preview-shadow">
+                <div id="preview">
+                  <!-- <div class="corner" id="corner-tl"></div>
+                  <div class="corner" id="corner-tr"></div> -->
+                  <h3>What I Do</h3>
+                  <p>I am a Fullstack Developer.</p>
+                  <!-- <div class="corner" id="corner-br"></div>
+                  <div class="corner" id="corner-bl"></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s2">
+        <div class="main-container">
+          <div class="about-wrapper">
+            <div class="about-me">
+              <h4>More about me</h4>
+              <p>
+                I build new projects just to tickle my brain and love teaching
+                others how they're made.
+              </p>
+              <p>
+                While I keep busy teaching courses, I still take interviews in
+                search of a great team & projects that interest me.
+              </p>
+
+              <hr />
+              <h4>Top Expertise</h4>
+              <p>
+                Fullstack developer with primary focus on Django + React
+                <a target="_blank" href="resume.pdf">Download RESUME</a>
+              </p>
+
+              <div id="skills">
+                <div>
+                  <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Javascript</li>
+                    <li>Vue</li>
+                    <li>MySQL</li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>AWS</li>
+                    <li>Heroku</li>
+                    <li>HTML/CSS</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <img id="social-img" src="./images/comsci.jpg" alt="" />
+              <h3>Find me on Github & Twitter</h3>
+              <a target="_blank" href="https://github.com/iamdevabdellah"
+                >GitHub</a
+              >
+              <a target="_blank" href="https://twitter.com/iamdevabdellah"
+                >Twitter</a
+              >
+              <br />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s1">
+        <div class="main-container">
+          <h3>Some of my past Projects</h3>
+          <div class="post-wrapper">
+            <div class="post">
+              <img class="thumbnail" src="" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">This is some sentence</p>
+                <a href="post.html">Read More</a>
+              </div>
+            </div>
+
+            <div class="post">
+              <img class="thumbnail" src="" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">This is some sentence</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+
+            <div class="post">
+              <img class="thumbnail" src="" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">This is some sentence</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+
+            <div class="post">
+              <img class="thumbnail" src="" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">This is some sentence</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+
+            <div class="post">
+              <img class="thumbnail" src="" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">This is some sentence</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+
+            <div class="post">
+              <img class="thumbnail" src="" alt="" />
+              <div class="post-preview">
+                <h6 class="post-title">Post Title</h6>
+                <p class="post-intro">This is some sentence</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+
+            <div id="custom_button">
+              <a href="#" class="btn"><span>Show More</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s2">
+        <div class="main-container">
+          <h3 class="get-in-touch">Get In Touch</h3>
+
+          <form action="" id="contact-form">
+            <label for="">Name</label>
+            <input type="text" name="name" id="" class="input-field" />
+
+            <label for="">Subject</label>
+            <input type="text" name="subject" id="" class="input-field" />
+
+            <label for="">Email</label>
+            <input type="text" name="email" id="" class="input-field" />
+            <label for="">Message</label>
+            <textarea name="message" class="input-field"></textarea>
+
+            <input type="submit" id="submit-btn" value="Send" />
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
