@@ -435,3 +435,8 @@ h6 {
   -ms-user-select: none;
   user-select: none;
 }
+
+.follow_me {
+  display: flex;
+  justify-content: center;
+}
